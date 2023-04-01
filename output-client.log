@@ -1,0 +1,72 @@
+2023-03-25 16:32:27 [CLIENT] [INFO] Setting user: Purpursarkans
+2023-03-25 16:32:27 [CLIENT] [INFO] LWJGL Version: 2.9.4
+2023-03-25 16:32:28 [CLIENT] [INFO] Found animation info for: textures/blocks/lava_flow.txt
+2023-03-25 16:32:28 [CLIENT] [INFO] Found animation info for: textures/blocks/water_flow.txt
+2023-03-25 16:32:28 [CLIENT] [INFO] Found animation info for: textures/blocks/fire_0.txt
+2023-03-25 16:32:28 [CLIENT] [INFO] Found animation info for: textures/blocks/fire_1.txt
+2023-03-25 16:32:28 [CLIENT] [INFO] Found animation info for: textures/blocks/lava.txt
+2023-03-25 16:32:28 [CLIENT] [INFO] Found animation info for: textures/blocks/portal.txt
+2023-03-25 16:32:28 [CLIENT] [INFO] Found animation info for: textures/blocks/water.txt
+2023-03-25 16:32:29 [CLIENT] [INFO] Found animation info for: textures/items/clock.txt
+2023-03-25 16:32:29 [CLIENT] [INFO] Found animation info for: textures/items/compass.txt
+2023-03-25 16:33:09 [CLIENT] [INFO] Stopping!
+2023-03-25 16:39:23 [CLIENT] [INFO] Setting user: Purpursarkans
+2023-03-25 16:39:23 [CLIENT] [INFO] LWJGL Version: 2.9.4
+2023-03-25 16:39:24 [CLIENT] [INFO] Found animation info for: textures/blocks/lava_flow.txt
+2023-03-25 16:39:24 [CLIENT] [INFO] Found animation info for: textures/blocks/water_flow.txt
+2023-03-25 16:39:24 [CLIENT] [INFO] Found animation info for: textures/blocks/fire_0.txt
+2023-03-25 16:39:24 [CLIENT] [INFO] Found animation info for: textures/blocks/fire_1.txt
+2023-03-25 16:39:24 [CLIENT] [INFO] Found animation info for: textures/blocks/lava.txt
+2023-03-25 16:39:24 [CLIENT] [INFO] Found animation info for: textures/blocks/portal.txt
+2023-03-25 16:39:24 [CLIENT] [INFO] Found animation info for: textures/blocks/water.txt
+2023-03-25 16:39:24 [CLIENT] [INFO] Found animation info for: textures/items/clock.txt
+2023-03-25 16:39:24 [CLIENT] [INFO] Found animation info for: textures/items/compass.txt
+2023-03-25 16:39:42 [CLIENT] [INFO] Stopping!
+2023-03-26 00:24:58 [CLIENT] [INFO] Setting user: Purpursarkans
+2023-03-26 00:24:58 [CLIENT] [INFO] LWJGL Version: 2.9.4
+2023-03-26 00:25:00 [CLIENT] [INFO] Found animation info for: textures/blocks/lava_flow.txt
+2023-03-26 00:25:00 [CLIENT] [INFO] Found animation info for: textures/blocks/water_flow.txt
+2023-03-26 00:25:00 [CLIENT] [INFO] Found animation info for: textures/blocks/fire_0.txt
+2023-03-26 00:25:00 [CLIENT] [INFO] Found animation info for: textures/blocks/fire_1.txt
+2023-03-26 00:25:00 [CLIENT] [INFO] Found animation info for: textures/blocks/lava.txt
+2023-03-26 00:25:00 [CLIENT] [INFO] Found animation info for: textures/blocks/portal.txt
+2023-03-26 00:25:00 [CLIENT] [INFO] Found animation info for: textures/blocks/water.txt
+2023-03-26 00:25:00 [CLIENT] [INFO] Found animation info for: textures/items/clock.txt
+2023-03-26 00:25:00 [CLIENT] [INFO] Found animation info for: textures/items/compass.txt
+2023-03-26 00:31:38 [CLIENT] [INFO] [CHAT] §cИспользование: /scoreboard <objectives|players|teams>
+2023-03-26 00:31:39 [CLIENT] [INFO] [CHAT] objectives, players, teams
+2023-03-26 00:32:20 [CLIENT] [INFO] [CHAT] Given Скорость (ID 1) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:23 [CLIENT] [INFO] [CHAT] Given Медлительность (ID 2) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:24 [CLIENT] [INFO] [CHAT] Given Ускорение (ID 3) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:26 [CLIENT] [INFO] [CHAT] Given Утомление (ID 4) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:27 [CLIENT] [INFO] [CHAT] Given Сила (ID 5) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:28 [CLIENT] [INFO] [CHAT] Given Мгновенное лечение (ID 6) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:29 [CLIENT] [INFO] [CHAT] Given Моментальный урон (ID 7) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:30 [CLIENT] [INFO] [CHAT] Given Прыгучесть (ID 8) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:31 [CLIENT] [INFO] [CHAT] Given Тошнота (ID 9) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:32 [CLIENT] [INFO] [CHAT] Given Восстановление (ID 10) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:34 [CLIENT] [INFO] [CHAT] Given Сопротивление урону (ID 11) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:36 [CLIENT] [INFO] [CHAT] §cThere is no such mob effect with ID 110
+2023-03-26 00:32:38 [CLIENT] [INFO] [CHAT] §cThere is no such mob effect with ID 50
+2023-03-26 00:32:39 [CLIENT] [INFO] [CHAT] §cThere is no such mob effect with ID 25
+2023-03-26 00:32:42 [CLIENT] [INFO] [CHAT] Given Огнестойкость (ID 12) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:42 [CLIENT] [INFO] [CHAT] Given Дыхание под водой (ID 13) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:43 [CLIENT] [INFO] [CHAT] Given Невидимость (ID 14) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:44 [CLIENT] [INFO] [CHAT] Given Слепота (ID 15) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:46 [CLIENT] [INFO] [CHAT] Given Ночное зрение (ID 16) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:47 [CLIENT] [INFO] [CHAT] Given Голод (ID 17) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:48 [CLIENT] [INFO] [CHAT] Given Слабость (ID 18) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:49 [CLIENT] [INFO] [CHAT] Given Отравление (ID 19) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:51 [CLIENT] [INFO] [CHAT] Given Иссушение (ID 20) * 0 to Purpursarkans for 30 seconds
+2023-03-26 00:32:53 [CLIENT] [INFO] [CHAT] §cThere is no such mob effect with ID 21
+2023-03-26 00:32:59 [CLIENT] [INFO] [CHAT] §c'clear' - не является допустимым числом
+2023-03-26 00:33:02 [CLIENT] [INFO] [CHAT] §cВведенное число (0) слишком мало, оно должно быть не менее 1
+2023-03-26 00:33:11 [CLIENT] [INFO] [CHAT] §cИспользование: /effect <player> <effect> [seconds] [amplifier]
+2023-03-26 00:36:30 [CLIENT] [INFO] [CHAT] Purpursarkans выпал из мира
+2023-03-26 00:36:30 [CLIENT] [INFO] [CHAT] Ouch. That looks like it hurt.
+2023-03-26 00:38:49 [CLIENT] [INFO] [CHAT] §cИспользование: /give <игрок> <предмет> [количество] [доп. данные]
+2023-03-26 00:38:51 [CLIENT] [INFO] [CHAT] Выдано Командный блок (ID 137) * 1 игроку Purpursarkans
+2023-03-26 00:39:18 [CLIENT] [INFO] [CHAT] Command set: say надо было ставить линукс
+2023-03-26 00:39:18 [CLIENT] [INFO] [CHAT] [cmd] надо было ставить линукс
+2023-03-26 01:31:15 [CLIENT] [INFO] [CHAT] <Purpursarkans> 42 -30
+2023-03-26 01:37:01 [CLIENT] [INFO] Stopping!
