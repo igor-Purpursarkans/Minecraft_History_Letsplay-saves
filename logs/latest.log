@@ -1,65 +1,32 @@
-[00:33:18] [Client thread/INFO]: Setting user: Purpursarkans
-[00:33:18] [Client thread/INFO]: (Session ID is token:eyJraWQiOiJhYzg0YSIsImFsZyI6IkhTMjU2In0.eyJ4dWlkIjoiMjUzNTQzNTMwMDY3MTY4NyIsImFnZyI6IkFkdWx0Iiwic3ViIjoiM2VmYWM5MGQtZTgzOC00OGU5LTk2Y2UtNmRhODIxNDgxY2UwIiwiYXV0aCI6IlhCT1giLCJucyI6ImRlZmF1bHQiLCJyb2xlcyI6W10sImlzcyI6ImF1dGhlbnRpY2F0aW9uIiwicGxhdGZvcm0iOiJQQ19MQVVOQ0hFUiIsInl1aWQiOiJkMzEyNDE2ZDc2MGE0YTQ1ODU4YzNjOWZjMTdlOTJjOSIsIm5iZiI6MTY4MDM3OTYwOSwiZXhwIjoxNjgwNDY2MDA5LCJpYXQiOjE2ODAzNzk2MDl9.oPDdZnXnJsPXIFUe2CepKAR39zJIw9v_W8qehtvD77U:b6b72e6f880c40c783ebfcb79431673a)
-[00:33:18] [Client thread/INFO]: LWJGL Version: 2.9.4
-[00:33:18] [Client thread/INFO]: Reloading ResourceManager: Default
-[00:33:19] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[00:33:19] [Thread-5/INFO]: Initializing LWJGL OpenAL
-[00:33:19] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[00:33:19] [Thread-5/INFO]: OpenAL initialized.
-[00:33:19] [Client thread/INFO]: Created: 512x512 textures-atlas
-[00:33:19] [Sound Library Loader/INFO]: Sound engine started
-[00:33:28] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
-[00:33:28] [Server thread/INFO]: Generating keypair
-[00:33:28] [Server thread/INFO]: Preparing start region for level 0
-[00:33:29] [Server thread/INFO]: Changing view distance to 32, from 10
-[00:33:29] [Server thread/INFO]: Purpursarkans[local:E:2f837d11] logged in with entity id 44 at (270.74724728403953, 69.0, -173.20044719222943)
-[00:33:29] [Server thread/INFO]: Purpursarkans присоединился к игре
-[00:38:24] [Server thread/INFO]: Saving and pausing game...
-[00:38:24] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
-[00:38:24] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
-[00:38:24] [Server thread/INFO]: Saving chunks for level 'World1'/The End
-[00:38:35] [Client thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-04-02_00.38.35.png
-[00:38:57] [Server thread/INFO]: Saving and pausing game...
-[00:38:57] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
-[00:38:57] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
-[00:38:57] [Server thread/INFO]: Saving chunks for level 'World1'/The End
-[00:40:19] [Chunk Batcher 1/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
-[00:40:59] [Server thread/INFO]: Saving and pausing game...
-[00:40:59] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
-[00:40:59] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
-[00:40:59] [Server thread/INFO]: Saving chunks for level 'World1'/The End
-[00:41:01] [Server thread/INFO]: Saving and pausing game...
-[00:41:01] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
-[00:41:01] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
-[00:41:01] [Server thread/INFO]: Saving chunks for level 'World1'/The End
-[00:41:07] [Server thread/INFO]: Saving and pausing game...
-[00:41:07] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
-[00:41:07] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
-[00:41:07] [Server thread/INFO]: Saving chunks for level 'World1'/The End
-[00:41:17] [Server thread/INFO]: Saving and pausing game...
-[00:41:17] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
-[00:41:18] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
-[00:41:18] [Server thread/INFO]: Saving chunks for level 'World1'/The End
-[00:42:57] [Chunk Batcher 0/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
-[00:43:00] [Chunk Batcher 1/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
-[00:43:02] [Chunk Batcher 0/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
-[00:45:36] [Chunk Batcher 1/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
-[00:51:15] [Client thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-04-02_00.51.15.png
-[00:57:02] [Client thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-04-02_00.57.02.png
-[01:06:39] [Server thread/INFO]: Saving and pausing game...
-[01:06:39] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
-[01:06:39] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
-[01:06:39] [Server thread/INFO]: Saving chunks for level 'World1'/The End
-[01:08:10] [Server thread/INFO]: Saving and pausing game...
-[01:08:10] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
-[01:08:10] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
-[01:08:10] [Server thread/INFO]: Saving chunks for level 'World1'/The End
-[01:08:11] [Server thread/INFO]: Stopping server
-[01:08:11] [Server thread/INFO]: Saving players
-[01:08:11] [Server thread/INFO]: Saving worlds
-[01:08:11] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
-[01:08:11] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
-[01:08:11] [Server thread/INFO]: Saving chunks for level 'World1'/The End
-[01:08:12] [Client thread/INFO]: Stopping!
-[01:08:12] [Client thread/INFO]: SoundSystem shutting down...
-[01:08:12] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[03:11:10] [Client thread/INFO]: Setting user: Purpursarkans
+[03:11:11] [Client thread/INFO]: LWJGL Version: 2.9.4
+[03:11:11] [Client thread/INFO]: Reloading ResourceManager: Default
+[03:11:19] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[03:11:19] [Thread-4/INFO]: Initializing LWJGL OpenAL
+[03:11:19] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[03:11:19] [Thread-4/INFO]: OpenAL initialized.
+[03:11:19] [Sound Library Loader/INFO]: Sound engine started
+[03:11:19] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[03:11:44] [Server thread/INFO]: Starting integrated minecraft server version 1.9.4
+[03:11:44] [Server thread/INFO]: Generating keypair
+[03:11:44] [Server thread/INFO]: Preparing start region for level 0
+[03:11:45] [Server thread/INFO]: Preparing spawn area: 77%
+[03:11:45] [Server thread/INFO]: Changing view distance to 32, from 10
+[03:11:46] [Server thread/INFO]: Purpursarkans[local:E:7a5245fa] logged in with entity id 45 at (253.3503419033576, 68.1212968405392, -118.09127453009116)
+[03:11:46] [Server thread/INFO]: Purpursarkans присоединился к игре
+[03:11:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3153ms behind, skipping 63 tick(s)
+[03:13:22] [Server thread/INFO]: Saving and pausing game...
+[03:13:22] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
+[03:13:22] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
+[03:13:22] [Server thread/INFO]: Saving chunks for level 'World1'/The End
+[03:13:24] [Server thread/INFO]: Changing difficulty to HARD, from PEACEFUL
+[03:16:19] [Server thread/INFO]: Saving and pausing game...
+[03:16:19] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
+[03:16:19] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
+[03:16:19] [Server thread/INFO]: Saving chunks for level 'World1'/The End
+[03:16:22] [Server thread/INFO]: Stopping server
+[03:16:22] [Server thread/INFO]: Saving players
+[03:16:22] [Server thread/INFO]: Saving worlds
+[03:16:22] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
+[03:16:22] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
+[03:16:22] [Server thread/INFO]: Saving chunks for level 'World1'/The End
