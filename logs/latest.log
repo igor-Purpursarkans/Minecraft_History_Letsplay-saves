@@ -1,32 +1,30 @@
-[03:11:10] [Client thread/INFO]: Setting user: Purpursarkans
-[03:11:11] [Client thread/INFO]: LWJGL Version: 2.9.4
-[03:11:11] [Client thread/INFO]: Reloading ResourceManager: Default
-[03:11:19] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[03:11:19] [Thread-4/INFO]: Initializing LWJGL OpenAL
-[03:11:19] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[03:11:19] [Thread-4/INFO]: OpenAL initialized.
-[03:11:19] [Sound Library Loader/INFO]: Sound engine started
-[03:11:19] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[03:11:44] [Server thread/INFO]: Starting integrated minecraft server version 1.9.4
-[03:11:44] [Server thread/INFO]: Generating keypair
-[03:11:44] [Server thread/INFO]: Preparing start region for level 0
-[03:11:45] [Server thread/INFO]: Preparing spawn area: 77%
-[03:11:45] [Server thread/INFO]: Changing view distance to 32, from 10
-[03:11:46] [Server thread/INFO]: Purpursarkans[local:E:7a5245fa] logged in with entity id 45 at (253.3503419033576, 68.1212968405392, -118.09127453009116)
-[03:11:46] [Server thread/INFO]: Purpursarkans присоединился к игре
-[03:11:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3153ms behind, skipping 63 tick(s)
-[03:13:22] [Server thread/INFO]: Saving and pausing game...
-[03:13:22] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
-[03:13:22] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
-[03:13:22] [Server thread/INFO]: Saving chunks for level 'World1'/The End
-[03:13:24] [Server thread/INFO]: Changing difficulty to HARD, from PEACEFUL
-[03:16:19] [Server thread/INFO]: Saving and pausing game...
-[03:16:19] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
-[03:16:19] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
-[03:16:19] [Server thread/INFO]: Saving chunks for level 'World1'/The End
-[03:16:22] [Server thread/INFO]: Stopping server
-[03:16:22] [Server thread/INFO]: Saving players
-[03:16:22] [Server thread/INFO]: Saving worlds
-[03:16:22] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
-[03:16:22] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
-[03:16:22] [Server thread/INFO]: Saving chunks for level 'World1'/The End
+[16:48:29] [Client thread/INFO]: Setting user: Purpursarkans
+[16:48:30] [Client thread/INFO]: LWJGL Version: 2.9.4
+[16:48:30] [Client thread/INFO]: Reloading ResourceManager: Default
+[16:48:34] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:48:35] [Thread-4/INFO]: Initializing LWJGL OpenAL
+[16:48:35] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:48:35] [Thread-4/INFO]: OpenAL initialized.
+[16:48:35] [Sound Library Loader/INFO]: Sound engine started
+[16:48:35] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[16:48:48] [Server thread/INFO]: Starting integrated minecraft server version 1.9.4
+[16:48:48] [Server thread/INFO]: Generating keypair
+[16:48:48] [Server thread/INFO]: Preparing start region for level 0
+[16:48:49] [Server thread/INFO]: Preparing spawn area: 83%
+[16:48:49] [Server thread/INFO]: Changing view distance to 32, from 10
+[16:48:49] [Server thread/INFO]: Purpursarkans[local:E:ecd592fc] logged in with entity id 41 at (251.5, 68.0, -118.5)
+[16:48:49] [Server thread/INFO]: Purpursarkans присоединился к игре
+[16:48:52] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2494ms behind, skipping 49 tick(s)
+[16:49:03] [Server thread/INFO]: Saving and pausing game...
+[16:49:03] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
+[16:49:03] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
+[16:49:03] [Server thread/INFO]: Saving chunks for level 'World1'/The End
+[16:49:04] [Server thread/INFO]: Stopping server
+[16:49:04] [Server thread/INFO]: Saving players
+[16:49:04] [Server thread/INFO]: Saving worlds
+[16:49:04] [Server thread/INFO]: Saving chunks for level 'World1'/Overworld
+[16:49:04] [Server thread/INFO]: Saving chunks for level 'World1'/Nether
+[16:49:04] [Server thread/INFO]: Saving chunks for level 'World1'/The End
+[16:49:05] [Client thread/INFO]: Stopping!
+[16:49:05] [Client thread/INFO]: SoundSystem shutting down...
+[16:49:05] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
