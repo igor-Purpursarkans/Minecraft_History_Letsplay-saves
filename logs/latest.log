@@ -1,5 +1,5 @@
-[03:03:17] [main/INFO]: Loading Minecraft 1.20 with Fabric Loader 0.14.21
-[03:03:17] [main/INFO]: Loading 66 mods:
+[17:25:54] [main/INFO]: Loading Minecraft 1.20 with Fabric Loader 0.14.21
+[17:25:55] [main/INFO]: Loading 66 mods:
 	- architectury 9.0.7
 	- cloth-config 11.0.99
 	   \-- cloth-basic-math 0.6.1
@@ -80,343 +80,409 @@
 	- sodium-extra 0.4.20+mc1.20-build.103
 	   |-- caffeineconfig 1.1.0+1.17
 	   \-- crowdin-translate 1.4+1.19.3
-[03:03:17] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/D:/games/MultiMC/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[03:03:18] [main/INFO]: Compatibility level set to JAVA_16
-[03:03:18] [main/INFO]: Compatibility level set to JAVA_17
-[03:03:18] [main/INFO]: Loaded configuration file for Sodium: 33 options available, 0 override(s) found
-[03:03:18] [main/INFO]: Loaded configuration file for Sodium Extra: 28 options available, 0 override(s) found
-[03:03:19] [main/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[03:03:20] [main/INFO]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.class_2540
-[03:03:20] [main/INFO]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to mda35f16$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
-[03:03:20] [main/INFO]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to mda35f16$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
-[03:03:22] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 107 milliseconds
-[03:03:23] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.class_3244
-[03:03:24] [Render thread/INFO]: Launching a new process to probe the system configuration!
-[03:03:24] [Render thread/INFO]: OpenGL Vendor: ATI Technologies Inc.
-[03:03:24] [Render thread/INFO]: OpenGL Renderer: AMD Radeon RX 6700
-[03:03:24] [Render thread/INFO]: OpenGL Version: 4.6.0 Compatibility Profile Context 23.5.2.230523
-[03:03:24] [Render thread/INFO]: Mixing client.MixinMinecraft from mixins/common/nochatreports.mixins.json into net.minecraft.class_310
-[03:03:24] [Render thread/INFO]: Mixing client.MixinMinecraft from mixins/fabric/nochatreports-fabric.mixins.json into net.minecraft.class_310
-[03:03:24] [Render thread/INFO]: Mixing client.MixinTitleScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_442
-[03:03:24] [Render thread/INFO]: Mixing client.MixinChatScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_408
-[03:03:24] [Render thread/INFO]: Renaming synthetic method lambda$onInit$4()Lnet/minecraft/class_2561; to mda35f16$nochatreports$lambda$onInit$4$0 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
-[03:03:24] [Render thread/INFO]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/class_4185;)V to mda35f16$nochatreports$lambda$onInit$3$1 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
-[03:03:24] [Render thread/INFO]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/class_2561; to mda35f16$nochatreports$lambda$onInit$2$2 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
-[03:03:24] [Render thread/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to mda35f16$nochatreports$lambda$onInit$1$3 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
-[03:03:24] [Render thread/INFO]: Renaming synthetic method lambda$onBeforeMessage$0(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lcom/aizistral/nochatreports/common/encryption/Encryptor;)V to mda35f16$nochatreports$lambda$onBeforeMessage$0$4 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
-[03:03:25] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03:03:25] [Render thread/INFO]: Mixing client.MixinYggdrasilUserApiService from mixins/common/nochatreports.mixins.json into com.mojang.authlib.yggdrasil.YggdrasilUserApiService
-[03:03:25] [Render thread/INFO]: Setting user: Purpursarkans
-[03:03:25] [Render thread/INFO]: Mixing client.MixinToastComponent from mixins/common/nochatreports.mixins.json into net.minecraft.class_374
-[03:03:25] [Render thread/INFO]: KONNICHIWA ZA WARUDO!
-[03:03:25] [Render thread/INFO]: Default JVM text encoding is: windows-1251
-[03:03:25] [Render thread/INFO]: Reading config file NoChatReports/NCR-Common.json...
-[03:03:25] [Render thread/INFO]: Reading config file NoChatReports/NCR-Client.json...
-[03:03:25] [Render thread/INFO]: Reading config file NoChatReports/NCR-ServerPreferences.json...
-[03:03:25] [Render thread/INFO]: Reading config file NoChatReports/NCR-Encryption.json...
-[03:03:25] [Render thread/INFO]: Writing config file NoChatReports/NCR-Common.json...
-[03:03:25] [Render thread/INFO]: Writing config file NoChatReports/NCR-Client.json...
-[03:03:25] [Render thread/INFO]: Writing config file NoChatReports/NCR-ServerPreferences.json...
-[03:03:25] [Render thread/INFO]: Writing config file NoChatReports/NCR-Encryption.json...
-[03:03:25] [Render thread/INFO]: Client initialization...
-[03:03:25] [Render thread/INFO]: Mixing client.MixinClientPacketListener from mixins/common/nochatreports.mixins.json into net.minecraft.class_634
-[03:03:26] [Render thread/INFO]: [REI] Config loaded
-[03:03:26] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
-[03:03:26] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[03:03:26] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
-[03:03:26] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[03:03:26] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
-[03:03:26] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
-[03:03:26] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIPlugin
-[03:03:26] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
-[03:03:26] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[03:03:26] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
-[03:03:26] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
-[03:03:26] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[03:03:26] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[03:03:26] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[03:03:26] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[03:03:26] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
-[03:03:26] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
-[03:03:26] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
-[03:03:26] [Worker-Main-1/INFO]: Checking mod updates...
-[03:03:26] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
-[03:03:26] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
-[03:03:26] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
-[03:03:26] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:ci_msg
-[03:03:26] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:og_not_enough
-[03:03:26] [Render thread/INFO]: Mixing client.MixinOptions from mixins/common/nochatreports.mixins.json into net.minecraft.class_315
-[03:03:26] [Render thread/INFO]: Renaming synthetic method lambda$onlyShowSecureChat$0(Ljava/lang/Boolean;)V to mda35f16$nochatreports$lambda$onlyShowSecureChat$0$0 in mixins/common/nochatreports.mixins.json:client.MixinOptions from mod nochatreports
-[03:03:26] [Render thread/INFO]: Mixing client.MixinChatComponent from mixins/common/nochatreports.mixins.json into net.minecraft.class_338
-[03:03:26] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$1()V to mda35f16$nochatreports$lambda$modifyGUIMessage$1$0 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
-[03:03:26] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$0(Lnet/minecraft/class_5348;Lnet/minecraft/class_2561;)V to mda35f16$nochatreports$lambda$modifyGUIMessage$0$1 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
-[03:03:26] [Render thread/INFO]: Mixing client.MixinGuiMessageTagIcon from mixins/common/nochatreports.mixins.json into net.minecraft.class_7591$class_7592
-[03:03:26] [Render thread/INFO]: Renaming @Invoker method create(Ljava/lang/String;IIIII)Lnet/minecraft/class_7591$class_7592; to create$nochatreports_$md$a35f16$0 in mixins/common/nochatreports.mixins.json:client.MixinGuiMessageTagIcon from mod nochatreports
-[03:03:26] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
-[03:03:26] [Worker-Main-1/INFO]: Update available for 'roughlyenoughitems@12.0.622', (-> 12.0.623+fabric)
-[03:03:26] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_23182 in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[03:03:27] [Render thread/INFO]: Mixing client.MixinChatListener from mixins/common/nochatreports.mixins.json into net.minecraft.class_7594
-[03:03:27] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (caffeineconfig, cloth-config, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, modmenu, nochatreports, reeses-sodium-options, roughlyenoughitems, skinlayers, sodium, sodium-extra)
-[03:03:27] [Render thread/INFO]: Mixing client.MixinJoinMultiplayerScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_500
-[03:03:27] [Render thread/INFO]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/class_2561; to mda35f16$nochatreports$lambda$onInit$2$0 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
-[03:03:27] [Render thread/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to mda35f16$nochatreports$lambda$onInit$1$1 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
-[03:03:27] [Render thread/INFO]: Renaming synthetic method lambda$onInit$0(Lnet/minecraft/class_4185;)V to mda35f16$nochatreports$lambda$onInit$0$2 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
-[03:03:27] [Worker-Main-5/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
-[03:03:27] [Render thread/INFO]: Game entered main loop!
-[03:03:28] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
-[03:03:28] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[03:03:28] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (High Definition Audio Device)
-[03:03:28] [Render thread/INFO]: Sound engine started
-[03:03:28] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/blocks.png-atlas
-[03:03:28] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
-[03:03:28] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
-[03:03:28] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
-[03:03:28] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
-[03:03:28] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
-[03:03:28] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
-[03:03:28] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
-[03:03:28] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
-[03:03:28] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[03:03:29] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[03:03:29] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[03:03:29] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[03:03:33] [Render thread/INFO]: Loaded 7 recipes
-[03:03:33] [Render thread/INFO]: Loaded 1271 advancements
-[03:03:34] [Render thread/INFO]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.class_3324
-[03:03:34] [Render thread/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.298 ms
-[03:03:34] [Server thread/INFO]: Starting integrated minecraft server version 1.20
-[03:03:34] [Server thread/INFO]: Generating keypair
-[03:03:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:03:37] [Render thread/INFO]: Подготовка области возрождения: 0%
-[03:03:37] [Render thread/INFO]: Подготовка области возрождения: 0%
-[03:03:37] [Render thread/INFO]: Подготовка области возрождения: 0%
-[03:03:37] [Render thread/INFO]: Подготовка области возрождения: 0%
-[03:03:37] [Render thread/INFO]: Подготовка области возрождения: 0%
-[03:03:37] [Render thread/INFO]: Подготовка области возрождения: 4%
-[03:03:38] [Render thread/INFO]: Time elapsed: 2775 ms
-[03:03:38] [Server thread/INFO]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.class_2926
-[03:03:38] [Server thread/INFO]: Changing view distance to 32, from 10
-[03:03:38] [Server thread/INFO]: Changing simulation distance to 16, from 0
-[03:03:38] [Netty Local Client IO #0/INFO]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7472
-[03:03:38] [Netty Local Client IO #0/INFO]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_2797
-[03:03:38] [Netty Local Client IO #0/INFO]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7861
-[03:03:38] [Server thread/INFO]: Purpursarkans[local:E:bcc61e87] logged in with entity id 54 at (-3204.9082382677766, 69.0, -837.6377289216624)
-[03:03:38] [Server thread/INFO]: Purpursarkans присоединился к игре
-[03:03:39] [Render thread/INFO]: Started 6 worker threads
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] ========================================
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] REIPlugin starting main-reload for START.
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] Plugins (6):
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] ========================================
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] ########################################
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin starting main-reload for START.
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] Plugins (3):
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] ########################################
-[03:03:39] [Render thread/INFO]: Loaded 443 advancements
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] ****************************************
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin starting main-reload for START.
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] Plugins (3):
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] ****************************************
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] REIPlugin finished post-reload for START in 844.3 ?s, totaling 90.49 ms.
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin finished post-reload for START in 238.9 ?s, totaling 481.8 ms.
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin finished post-reload for START in 351.5 ?s, totaling 2.545 ms.
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] REIPlugin starting main-reload for END.
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] Plugins (6):
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin starting main-reload for END.
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] Plugins (3):
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
-[03:03:39] [REI-ReloadPlugins/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[03:03:40] [REI-ReloadPlugins/INFO]: [REI] ----------------------------------------
-[03:03:40] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin starting main-reload for END.
-[03:03:40] [REI-ReloadPlugins/INFO]: [REI] Plugins (3):
-[03:03:40] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[03:03:40] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[03:03:40] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[03:03:40] [REI-ReloadPlugins/INFO]: [REI] ----------------------------------------
-[03:03:40] [REI-ReloadPlugins/INFO]: [REI] REIPlugin finished post-reload for END in 476.0 ?s, totaling 48.88 ms.
-[03:03:40] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin finished post-reload for END in 237.0 ?s, totaling 341.2 ms.
-[03:03:40] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin finished post-reload for END in 183.3 ?s, totaling 11.97 ms.
-[03:05:53] [Render thread/INFO]: Loaded 443 advancements
-[03:06:04] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
-[03:06:42] [Render thread/INFO]: Loaded 443 advancements
-[03:07:38] [Render thread/INFO]: Mixing client.MixinRowHelper from mixins/common/nochatreports.mixins.json into net.minecraft.class_7845$class_7939
-[03:07:38] [Render thread/INFO]: Mixing client.MixinChatOptionsScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_404
-[03:07:38] [Render thread/INFO]: Renaming synthetic method lambda$init$0(Lnet/minecraft/class_339;)V to mda35f16$nochatreports$lambda$init$0$0 in mixins/common/nochatreports.mixins.json:client.MixinChatOptionsScreen from mod nochatreports
-[03:07:38] [Server thread/INFO]: Saving and pausing game...
-[03:07:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:overworld
-[03:07:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_end
-[03:07:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_nether
-[03:07:42] [Server thread/INFO]: Purpursarkans получил достижение «[Полосатый груз]»
-[03:07:42] [Render thread/INFO]: Mixing client.MixinGuiMessageTag from mixins/common/nochatreports.mixins.json into net.minecraft.class_7591
-[03:07:42] [Render thread/INFO]: [CHAT] Purpursarkans получил достижение «[Полосатый груз]»
-[03:07:42] [Render thread/INFO]: Loaded 443 advancements
-[03:09:53] [Render thread/INFO]: Loaded 443 advancements
-[03:10:12] [Render thread/INFO]: [CHAT] Точка возрождения установлена
-[03:10:15] [Server thread/INFO]: Saving and pausing game...
-[03:10:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:overworld
-[03:10:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_end
-[03:10:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_nether
-[03:10:17] [Render thread/INFO]: Writing config file NoChatReports/NCR-Encryption.json...
-[03:10:17] [Render thread/INFO]: Writing config file NoChatReports/NCR-Encryption.json...
-[03:10:17] [Render thread/INFO]: Writing config file NoChatReports/NCR-Encryption.json...
-[03:10:32] [Render thread/INFO]: Loaded 443 advancements
-[03:10:44] [Render thread/INFO]: Loaded 445 advancements
-[03:11:01] [Render thread/INFO]: Loaded 454 advancements
-[03:12:25] [Render thread/INFO]: Loaded 455 advancements
-[03:13:22] [Render thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-06-12_03.13.22.png
-[03:13:38] [Render thread/INFO]: Loaded 455 advancements
-[03:14:25] [Chunk Render Task Executor #0/ERROR]: Uncaught exception in thread "Chunk Render Task Executor #0"
-java.lang.OutOfMemoryError: null
-	at org.lwjgl.system.MemoryUtil.nmemReallocChecked(MemoryUtil.java:496) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.system.MemoryUtil.memRealloc(MemoryUtil.java:529) ~[lwjgl-3.3.1.jar:?]
-	at me.jellysquid.mods.sodium.client.render.vertex.type.ChunkVertexBufferBuilder.setBufferSize(ChunkVertexBufferBuilder.java:57) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.vertex.type.ChunkVertexBufferBuilder.start(ChunkVertexBufferBuilder.java:65) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildBuffers.init(ChunkBuildBuffers.java:61) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.tasks.ChunkRenderRebuildTask.performBuild(ChunkRenderRebuildTask.java:56) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuilder.processJob(ChunkBuilder.java:286) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuilder$WorkerRunnable.run(ChunkBuilder.java:328) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[03:14:25] [Chunk Render Task Executor #3/ERROR]: Uncaught exception in thread "Chunk Render Task Executor #3"
-java.lang.OutOfMemoryError: null
-	at org.lwjgl.system.MemoryUtil.nmemReallocChecked(MemoryUtil.java:496) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.system.MemoryUtil.memRealloc(MemoryUtil.java:529) ~[lwjgl-3.3.1.jar:?]
-	at me.jellysquid.mods.sodium.client.render.vertex.type.ChunkVertexBufferBuilder.setBufferSize(ChunkVertexBufferBuilder.java:57) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.vertex.type.ChunkVertexBufferBuilder.start(ChunkVertexBufferBuilder.java:65) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildBuffers.init(ChunkBuildBuffers.java:61) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.tasks.ChunkRenderRebuildTask.performBuild(ChunkRenderRebuildTask.java:56) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuilder.processJob(ChunkBuilder.java:286) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuilder$WorkerRunnable.run(ChunkBuilder.java:328) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[03:14:25] [Chunk Render Task Executor #5/ERROR]: Uncaught exception in thread "Chunk Render Task Executor #5"
-java.lang.OutOfMemoryError: null
-	at org.lwjgl.system.MemoryUtil.nmemReallocChecked(MemoryUtil.java:496) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.system.MemoryUtil.memRealloc(MemoryUtil.java:529) ~[lwjgl-3.3.1.jar:?]
-	at me.jellysquid.mods.sodium.client.render.vertex.type.ChunkVertexBufferBuilder.setBufferSize(ChunkVertexBufferBuilder.java:57) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.vertex.type.ChunkVertexBufferBuilder.start(ChunkVertexBufferBuilder.java:65) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildBuffers.init(ChunkBuildBuffers.java:61) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.tasks.ChunkRenderRebuildTask.performBuild(ChunkRenderRebuildTask.java:56) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuilder.processJob(ChunkBuilder.java:286) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuilder$WorkerRunnable.run(ChunkBuilder.java:328) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[03:14:25] [Chunk Render Task Executor #1/ERROR]: Uncaught exception in thread "Chunk Render Task Executor #1"
-java.lang.OutOfMemoryError: null
-	at org.lwjgl.system.MemoryUtil.nmemReallocChecked(MemoryUtil.java:496) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.system.MemoryUtil.memRealloc(MemoryUtil.java:529) ~[lwjgl-3.3.1.jar:?]
-	at me.jellysquid.mods.sodium.client.render.vertex.type.ChunkVertexBufferBuilder.setBufferSize(ChunkVertexBufferBuilder.java:57) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.vertex.type.ChunkVertexBufferBuilder.start(ChunkVertexBufferBuilder.java:65) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildBuffers.init(ChunkBuildBuffers.java:61) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.tasks.ChunkRenderRebuildTask.performBuild(ChunkRenderRebuildTask.java:56) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuilder.processJob(ChunkBuilder.java:286) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuilder$WorkerRunnable.run(ChunkBuilder.java:328) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[03:14:25] [Chunk Render Task Executor #4/ERROR]: Uncaught exception in thread "Chunk Render Task Executor #4"
-java.lang.OutOfMemoryError: null
-	at org.lwjgl.system.MemoryUtil.nmemReallocChecked(MemoryUtil.java:496) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.system.MemoryUtil.memRealloc(MemoryUtil.java:529) ~[lwjgl-3.3.1.jar:?]
-	at me.jellysquid.mods.sodium.client.render.vertex.type.ChunkVertexBufferBuilder.setBufferSize(ChunkVertexBufferBuilder.java:57) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.vertex.type.ChunkVertexBufferBuilder.start(ChunkVertexBufferBuilder.java:65) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildBuffers.init(ChunkBuildBuffers.java:61) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.tasks.ChunkRenderRebuildTask.performBuild(ChunkRenderRebuildTask.java:56) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuilder.processJob(ChunkBuilder.java:286) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuilder$WorkerRunnable.run(ChunkBuilder.java:328) ~[sodium-fabric-mc1.20-0.4.10+build.27.jar:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[03:17:10] [Render thread/INFO]: Loaded 466 advancements
-[03:20:19] [Server thread/INFO]: Saving and pausing game...
-[03:20:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:overworld
-[03:20:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_end
-[03:20:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_nether
-[03:20:23] [Render thread/INFO]: Loaded 470 advancements
-[03:20:40] [Render thread/INFO]: Loaded 472 advancements
-[03:20:57] [Server thread/INFO]: Saving and pausing game...
-[03:20:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:overworld
-[03:20:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_end
-[03:20:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_nether
-[03:22:00] [Render thread/INFO]: Loaded 473 advancements
-[03:23:37] [Server thread/INFO]: Saving and pausing game...
-[03:23:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:overworld
-[03:23:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_end
-[03:23:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_nether
-[03:23:40] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
-[03:23:40] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[03:23:40] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (High Definition Audio Device)
-[03:23:40] [Render thread/INFO]: Sound engine started
-[03:23:51] [Server thread/INFO]: Saving and pausing game...
-[03:23:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:overworld
-[03:23:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_end
-[03:23:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_nether
-[03:23:52] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
-[03:23:52] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[03:23:52] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (High Definition Audio Device)
-[03:23:52] [Render thread/INFO]: Sound engine started
-[03:23:53] [Server thread/INFO]: Saving and pausing game...
-[03:23:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:overworld
-[03:23:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_end
-[03:23:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_nether
-[03:23:56] [Server thread/INFO]: Saving and pausing game...
-[03:23:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:overworld
-[03:23:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_end
-[03:23:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_nether
-[03:23:57] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
-[03:23:57] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[03:23:57] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (High Definition Audio Device)
-[03:23:57] [Render thread/INFO]: Sound engine started
-[03:23:58] [Server thread/INFO]: Saving and pausing game...
-[03:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:overworld
-[03:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_end
-[03:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_nether
-[03:24:27] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
-[03:24:36] [Server thread/INFO]: Saving and pausing game...
-[03:24:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:overworld
-[03:24:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_end
-[03:24:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_nether
-[03:24:56] [Render thread/WARN]: Received passengers for unknown entity
-[03:24:57] [Render thread/INFO]: Loaded 473 advancements
-[03:25:21] [Render thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-06-12_03.25.21.png
-[03:25:22] [Render thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-06-12_03.25.22.png
-[03:25:23] [Render thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-06-12_03.25.23.png
-[03:25:55] [Render thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-06-12_03.25.55.png
-[03:26:19] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
-[03:26:54] [Render thread/WARN]: Received passengers for unknown entity
-[03:27:26] [Render thread/INFO]: Loaded 475 advancements
-[03:29:50] [Render thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-06-12_03.29.50.png
-[03:29:51] [Server thread/INFO]: Saving and pausing game...
-[03:29:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:overworld
-[03:29:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_end
-[03:29:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_nether
-[03:29:51] [Server thread/INFO]: Purpursarkans lost connection: Отключение
-[03:29:51] [Server thread/INFO]: Purpursarkans покинул игру
-[03:29:51] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[03:29:51] [Server thread/INFO]: Stopping server
-[03:29:51] [Server thread/INFO]: Saving players
-[03:29:51] [Server thread/INFO]: Saving worlds
-[03:29:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:overworld
-[03:30:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_end
-[03:30:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World1]'/minecraft:the_nether
-[03:30:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (World1): All chunks are saved
-[03:30:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:30:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:30:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[03:30:20] [Render thread/INFO]: Stopping worker threads
-[03:30:54] [Render thread/INFO]: Stopping!
+[17:25:58] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/D:/games/MultiMC/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[17:25:58] [main/INFO]: Compatibility level set to JAVA_16
+[17:25:58] [main/INFO]: Compatibility level set to JAVA_17
+[17:25:59] [main/INFO]: Loaded configuration file for Sodium: 33 options available, 0 override(s) found
+[17:25:59] [main/INFO]: Loaded configuration file for Sodium Extra: 28 options available, 0 override(s) found
+[17:26:01] [main/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[17:26:02] [main/INFO]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.class_2540
+[17:26:02] [main/INFO]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to md167a04$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[17:26:02] [main/INFO]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to md167a04$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[17:26:06] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 150 milliseconds
+[17:26:06] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.class_3244
+[17:26:08] [Render thread/INFO]: Launching a new process to probe the system configuration!
+[17:26:09] [Render thread/INFO]: OpenGL Vendor: ATI Technologies Inc.
+[17:26:09] [Render thread/INFO]: OpenGL Renderer: AMD Radeon RX 6700
+[17:26:09] [Render thread/INFO]: OpenGL Version: 4.6.0 Compatibility Profile Context 22.3.1.230424
+[17:26:09] [Render thread/INFO]: Mixing client.MixinMinecraft from mixins/common/nochatreports.mixins.json into net.minecraft.class_310
+[17:26:09] [Render thread/INFO]: Mixing client.MixinMinecraft from mixins/fabric/nochatreports-fabric.mixins.json into net.minecraft.class_310
+[17:26:09] [Render thread/INFO]: Mixing client.MixinTitleScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_442
+[17:26:09] [Render thread/INFO]: Mixing client.MixinChatScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_408
+[17:26:09] [Render thread/INFO]: Renaming synthetic method lambda$onInit$4()Lnet/minecraft/class_2561; to md167a04$nochatreports$lambda$onInit$4$0 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[17:26:09] [Render thread/INFO]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/class_4185;)V to md167a04$nochatreports$lambda$onInit$3$1 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[17:26:09] [Render thread/INFO]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/class_2561; to md167a04$nochatreports$lambda$onInit$2$2 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[17:26:09] [Render thread/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to md167a04$nochatreports$lambda$onInit$1$3 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[17:26:09] [Render thread/INFO]: Renaming synthetic method lambda$onBeforeMessage$0(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lcom/aizistral/nochatreports/common/encryption/Encryptor;)V to md167a04$nochatreports$lambda$onBeforeMessage$0$4 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[17:26:09] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:26:09] [Render thread/INFO]: Mixing client.MixinYggdrasilUserApiService from mixins/common/nochatreports.mixins.json into com.mojang.authlib.yggdrasil.YggdrasilUserApiService
+[17:26:11] [Render thread/INFO]: Setting user: Purpursarkans
+[17:26:11] [Render thread/INFO]: Mixing client.MixinToastComponent from mixins/common/nochatreports.mixins.json into net.minecraft.class_374
+[17:26:11] [Render thread/INFO]: KONNICHIWA ZA WARUDO!
+[17:26:11] [Render thread/INFO]: Default JVM text encoding is: windows-1251
+[17:26:11] [Render thread/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[17:26:11] [Render thread/INFO]: Reading config file NoChatReports/NCR-Client.json...
+[17:26:11] [Render thread/INFO]: Reading config file NoChatReports/NCR-ServerPreferences.json...
+[17:26:11] [Render thread/INFO]: Reading config file NoChatReports/NCR-Encryption.json...
+[17:26:11] [Render thread/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[17:26:11] [Render thread/INFO]: Writing config file NoChatReports/NCR-Client.json...
+[17:26:11] [Render thread/INFO]: Writing config file NoChatReports/NCR-ServerPreferences.json...
+[17:26:11] [Render thread/INFO]: Writing config file NoChatReports/NCR-Encryption.json...
+[17:26:11] [Render thread/INFO]: Client initialization...
+[17:26:11] [Render thread/INFO]: Mixing client.MixinClientPacketListener from mixins/common/nochatreports.mixins.json into net.minecraft.class_634
+[17:26:12] [Render thread/INFO]: [REI] Config loaded
+[17:26:12] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
+[17:26:12] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[17:26:12] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[17:26:12] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[17:26:12] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
+[17:26:12] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[17:26:12] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIPlugin
+[17:26:12] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[17:26:12] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[17:26:12] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[17:26:12] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[17:26:12] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[17:26:12] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[17:26:12] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[17:26:12] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[17:26:12] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[17:26:12] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[17:26:12] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[17:26:12] [Worker-Main-1/INFO]: Checking mod updates...
+[17:26:12] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[17:26:12] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[17:26:12] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[17:26:12] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:ci_msg
+[17:26:12] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:og_not_enough
+[17:26:12] [Render thread/INFO]: Mixing client.MixinOptions from mixins/common/nochatreports.mixins.json into net.minecraft.class_315
+[17:26:12] [Render thread/INFO]: Renaming synthetic method lambda$onlyShowSecureChat$0(Ljava/lang/Boolean;)V to md167a04$nochatreports$lambda$onlyShowSecureChat$0$0 in mixins/common/nochatreports.mixins.json:client.MixinOptions from mod nochatreports
+[17:26:12] [Render thread/INFO]: Mixing client.MixinChatComponent from mixins/common/nochatreports.mixins.json into net.minecraft.class_338
+[17:26:12] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$1()V to md167a04$nochatreports$lambda$modifyGUIMessage$1$0 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[17:26:12] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$0(Lnet/minecraft/class_5348;Lnet/minecraft/class_2561;)V to md167a04$nochatreports$lambda$modifyGUIMessage$0$1 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[17:26:12] [Render thread/INFO]: Mixing client.MixinGuiMessageTagIcon from mixins/common/nochatreports.mixins.json into net.minecraft.class_7591$class_7592
+[17:26:12] [Render thread/INFO]: Renaming @Invoker method create(Ljava/lang/String;IIIII)Lnet/minecraft/class_7591$class_7592; to create$nochatreports_$md$167a04$0 in mixins/common/nochatreports.mixins.json:client.MixinGuiMessageTagIcon from mod nochatreports
+[17:26:13] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[17:26:13] [Worker-Main-1/INFO]: Update available for 'architectury@9.0.7', (-> 9.1.10+fabric)
+[17:26:13] [Worker-Main-1/INFO]: Update available for 'roughlyenoughitems@12.0.622', (-> 12.0.634+fabric)
+[17:26:13] [Worker-Main-1/INFO]: Update available for 'nochatreports@1.20-v2.2.0', (-> Fabric-1.20.1-v2.2.2)
+[17:26:13] [Worker-Main-1/INFO]: Update available for 'sodium-extra@0.4.20+mc1.20-build.103', (-> mc1.20.1-0.4.23)
+[17:26:13] [Worker-Main-1/INFO]: Update available for 'skinlayers@1.5.3-mc1.20', (-> 1.5.4-1.20)
+[17:26:13] [Worker-Main-1/INFO]: Update available for 'cloth-config@11.0.99', (-> 11.1.106+fabric)
+[17:26:14] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_23182 in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[17:26:14] [Render thread/INFO]: Mixing client.MixinChatListener from mixins/common/nochatreports.mixins.json into net.minecraft.class_7594
+[17:26:15] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (caffeineconfig, cloth-config, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, modmenu, nochatreports, reeses-sodium-options, roughlyenoughitems, skinlayers, sodium, sodium-extra)
+[17:26:15] [Render thread/INFO]: Mixing client.MixinJoinMultiplayerScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_500
+[17:26:15] [Render thread/INFO]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/class_2561; to md167a04$nochatreports$lambda$onInit$2$0 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[17:26:15] [Render thread/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to md167a04$nochatreports$lambda$onInit$1$1 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[17:26:15] [Render thread/INFO]: Renaming synthetic method lambda$onInit$0(Lnet/minecraft/class_4185;)V to md167a04$nochatreports$lambda$onInit$0$2 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[17:26:15] [Worker-Main-5/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[17:26:15] [Render thread/INFO]: Game entered main loop!
+[17:26:16] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[17:26:16] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[17:26:16] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Наушники (Realtek(R) Audio)
+[17:26:16] [Render thread/INFO]: Sound engine started
+[17:26:16] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/blocks.png-atlas
+[17:26:16] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[17:26:16] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[17:26:16] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[17:26:16] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[17:26:16] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[17:26:16] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[17:26:16] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[17:26:16] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17:26:17] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[17:26:17] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[17:26:17] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17:26:17] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17:36:04] [Render thread/INFO]: Loaded 7 recipes
+[17:36:05] [Render thread/INFO]: Loaded 1271 advancements
+[17:36:05] [Render thread/INFO]: Mixing client.MixinRowHelper from mixins/common/nochatreports.mixins.json into net.minecraft.class_7845$class_7939
+[17:36:05] [Render thread/INFO]: Mixing client.MixinChatOptionsScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_404
+[17:36:05] [Render thread/INFO]: Renaming synthetic method lambda$init$0(Lnet/minecraft/class_339;)V to md167a04$nochatreports$lambda$init$0$0 in mixins/common/nochatreports.mixins.json:client.MixinChatOptionsScreen from mod nochatreports
+[17:36:20] [Render thread/INFO]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.class_3324
+[17:36:20] [Render thread/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.343 ms
+[17:36:20] [Server thread/INFO]: Starting integrated minecraft server version 1.20
+[17:36:20] [Server thread/INFO]: Generating keypair
+[17:36:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:36:24] [Render thread/INFO]: Подготовка области возрождения: 0%
+[17:36:24] [Render thread/INFO]: Подготовка области возрождения: 0%
+[17:36:24] [Render thread/INFO]: Подготовка области возрождения: 1%
+[17:36:25] [Render thread/INFO]: Подготовка области возрождения: 3%
+[17:36:25] [Render thread/INFO]: Подготовка области возрождения: 4%
+[17:36:26] [Render thread/INFO]: Подготовка области возрождения: 8%
+[17:36:26] [Render thread/INFO]: Подготовка области возрождения: 10%
+[17:36:27] [Render thread/INFO]: Подготовка области возрождения: 14%
+[17:36:27] [Render thread/INFO]: Подготовка области возрождения: 17%
+[17:36:28] [Render thread/INFO]: Подготовка области возрождения: 21%
+[17:36:28] [Render thread/INFO]: Подготовка области возрождения: 25%
+[17:36:29] [Render thread/INFO]: Подготовка области возрождения: 31%
+[17:36:29] [Render thread/INFO]: Подготовка области возрождения: 35%
+[17:36:30] [Render thread/INFO]: Подготовка области возрождения: 40%
+[17:36:30] [Render thread/INFO]: Подготовка области возрождения: 45%
+[17:36:31] [Render thread/INFO]: Подготовка области возрождения: 49%
+[17:36:31] [Render thread/INFO]: Подготовка области возрождения: 54%
+[17:36:32] [Render thread/INFO]: Подготовка области возрождения: 59%
+[17:36:32] [Render thread/INFO]: Подготовка области возрождения: 64%
+[17:36:33] [Render thread/INFO]: Подготовка области возрождения: 69%
+[17:36:33] [Render thread/INFO]: Подготовка области возрождения: 74%
+[17:36:34] [Render thread/INFO]: Подготовка области возрождения: 78%
+[17:36:34] [Render thread/INFO]: Подготовка области возрождения: 83%
+[17:36:35] [Render thread/INFO]: Подготовка области возрождения: 88%
+[17:36:35] [Render thread/INFO]: Подготовка области возрождения: 93%
+[17:36:36] [Server thread/INFO]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.class_2926
+[17:36:36] [Render thread/INFO]: Подготовка области возрождения: 99%
+[17:36:36] [Render thread/INFO]: Time elapsed: 12513 ms
+[17:36:36] [Server thread/INFO]: Changing view distance to 32, from 10
+[17:36:36] [Server thread/INFO]: Changing simulation distance to 16, from 0
+[17:36:37] [Netty Local Client IO #0/INFO]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7472
+[17:36:37] [Netty Local Client IO #0/INFO]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_2797
+[17:36:37] [Netty Local Client IO #0/INFO]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7861
+[17:36:37] [Server thread/INFO]: Purpursarkans[local:E:8bbe1820] logged in with entity id 122 at (-3.5, 92.0, -4.5)
+[17:36:37] [Server thread/INFO]: Purpursarkans присоединился к игре
+[17:36:37] [Render thread/INFO]: Started 6 worker threads
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI] ----------------------------------------
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI] REIPlugin starting main-reload for START.
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI] Plugins (6):
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI] ----------------------------------------
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin starting main-reload for START.
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI] Plugins (3):
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[17:36:37] [REI-ReloadPlugins/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[17:36:37] [Render thread/INFO]: Loaded 2 advancements
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] ########################################
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] Plugins (3):
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] ########################################
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] REIPlugin finished post-reload for START in 735.2 ?s, totaling 64.69 ms.
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin finished post-reload for START in 213.3 ?s, totaling 697.3 ms.
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin finished post-reload for START in 199.6 ?s, totaling 2.754 ms.
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] ========================================
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] REIPlugin starting main-reload for END.
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] Plugins (6):
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] ========================================
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin starting main-reload for END.
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] Plugins (3):
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] Plugins (3):
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] REIPlugin finished post-reload for END in 264.0 ?s, totaling 49.84 ms.
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin finished post-reload for END in 159.0 ?s, totaling 408.4 ms.
+[17:36:38] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin finished post-reload for END in 150.3 ?s, totaling 14.04 ms.
+[17:37:04] [Server thread/INFO]: Saving and pausing game...
+[17:37:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:overworld
+[17:37:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_nether
+[17:37:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_end
+[17:37:20] [Server thread/INFO]: Saving and pausing game...
+[17:37:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:overworld
+[17:37:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_nether
+[17:37:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_end
+[17:37:48] [Server thread/INFO]: Saving and pausing game...
+[17:37:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:overworld
+[17:37:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_nether
+[17:37:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_end
+[17:37:51] [Render thread/INFO]: Stopping worker threads
+[17:37:51] [Render thread/INFO]: Started 6 worker threads
+[17:37:52] [Render thread/INFO]: Flushed changes to Minecraft configuration
+[17:37:52] [Server thread/INFO]: Changing view distance to 24, from 32
+[17:38:01] [Render thread/INFO]: Loaded 11 advancements
+[17:38:08] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.tropical_fish.ambient
+[17:38:27] [Render thread/INFO]: Loaded 14 advancements
+[17:38:30] [Render thread/INFO]: Loaded 17 advancements
+[17:38:43] [Render thread/INFO]: Loaded 24 advancements
+[17:39:18] [Render thread/INFO]: Loaded 27 advancements
+[17:39:27] [Render thread/INFO]: Loaded 38 advancements
+[17:39:29] [Render thread/INFO]: Loaded 41 advancements
+[17:41:06] [Render thread/INFO]: Loaded 50 advancements
+[17:41:42] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[17:42:33] [Render thread/INFO]: Loaded 67 advancements
+[17:42:56] [Server thread/INFO]: Saving and pausing game...
+[17:42:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:overworld
+[17:42:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_nether
+[17:42:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_end
+[17:44:10] [Render thread/INFO]: Loaded 68 advancements
+[17:44:24] [Render thread/INFO]: Loaded 74 advancements
+[17:44:25] [Render thread/INFO]: Loaded 75 advancements
+[17:45:14] [Render thread/INFO]: Loaded 77 advancements
+[17:45:27] [Render thread/INFO]: Loaded 78 advancements
+[17:46:05] [Server thread/INFO]: Purpursarkans получил достижение «[Охотник на монстров]»
+[17:46:05] [Render thread/INFO]: Mixing client.MixinGuiMessageTag from mixins/common/nochatreports.mixins.json into net.minecraft.class_7591
+[17:46:05] [Render thread/INFO]: [CHAT] Purpursarkans получил достижение «[Охотник на монстров]»
+[17:46:05] [Render thread/INFO]: Loaded 109 advancements
+[17:46:12] [Render thread/INFO]: Loaded 109 advancements
+[17:46:40] [Render thread/INFO]: Loaded 126 advancements
+[17:47:11] [Render thread/INFO]: Loaded 129 advancements
+[17:47:11] [Render thread/INFO]: Loaded 135 advancements
+[17:47:13] [Render thread/INFO]: Loaded 135 advancements
+[17:47:18] [Render thread/INFO]: Loaded 138 advancements
+[17:47:29] [Render thread/INFO]: Loaded 145 advancements
+[17:47:40] [Render thread/INFO]: Loaded 146 advancements
+[17:47:40] [Render thread/INFO]: Loaded 149 advancements
+[17:48:11] [Render thread/INFO]: [CHAT] Точка возрождения установлена
+[17:48:11] [Server thread/INFO]: Purpursarkans получил достижение «[Спи, моя радость, усни]»
+[17:48:11] [Render thread/INFO]: [CHAT] Purpursarkans получил достижение «[Спи, моя радость, усни]»
+[17:48:11] [Render thread/INFO]: Loaded 149 advancements
+[17:48:32] [Render thread/INFO]: Loaded 152 advancements
+[17:48:52] [Render thread/INFO]: Loaded 155 advancements
+[17:49:43] [Server thread/INFO]: Purpursarkans получил достижение «[Каменный век]»
+[17:49:43] [Render thread/INFO]: [CHAT] Purpursarkans получил достижение «[Каменный век]»
+[17:49:43] [Render thread/INFO]: Loaded 170 advancements
+[17:49:55] [Server thread/INFO]: Purpursarkans получил достижение «[Обновка!]»
+[17:49:55] [Render thread/INFO]: [CHAT] Purpursarkans получил достижение «[Обновка!]»
+[17:49:55] [Render thread/INFO]: Loaded 174 advancements
+[17:50:08] [Render thread/INFO]: Loaded 175 advancements
+[17:51:07] [Render thread/INFO]: Loaded 175 advancements
+[17:54:03] [Render thread/INFO]: Loaded 177 advancements
+[17:54:39] [Render thread/INFO]: Loaded 190 advancements
+[17:54:39] [Server thread/INFO]: Purpursarkans получил достижение «[Куй железо...]»
+[17:54:39] [Render thread/INFO]: [CHAT] Purpursarkans получил достижение «[Куй железо...]»
+[17:54:40] [Render thread/INFO]: Loaded 217 advancements
+[17:54:40] [Render thread/INFO]: Loaded 218 advancements
+[17:54:40] [Server thread/INFO]: Purpursarkans получил достижение «[Алмазы!]»
+[17:54:40] [Render thread/INFO]: [CHAT] Purpursarkans получил достижение «[Алмазы!]»
+[17:54:40] [Render thread/INFO]: Loaded 231 advancements
+[17:54:44] [Render thread/INFO]: Loaded 233 advancements
+[17:56:52] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[17:58:00] [Render thread/INFO]: Loaded 235 advancements
+[17:58:08] [Render thread/INFO]: Loaded 237 advancements
+[17:58:18] [Server thread/INFO]: Purpursarkans получил достижение «[И кирка без дела ржавеет]»
+[17:58:18] [Render thread/INFO]: [CHAT] Purpursarkans получил достижение «[И кирка без дела ржавеет]»
+[17:58:18] [Render thread/INFO]: Loaded 237 advancements
+[17:58:42] [Render thread/INFO]: Loaded 238 advancements
+[17:59:22] [Render thread/INFO]: [CHAT] Точка возрождения установлена
+[18:00:06] [Render thread/INFO]: Loaded 238 advancements
+[18:02:32] [Render thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-07-19_18.02.32.png
+[18:04:20] [Render thread/INFO]: Loaded 238 advancements
+[18:04:31] [Server thread/INFO]: Purpursarkans получил достижение «[Две стихии]»
+[18:04:31] [Render thread/INFO]: [CHAT] Purpursarkans получил достижение «[Две стихии]»
+[18:04:31] [Render thread/INFO]: Loaded 242 advancements
+[18:06:56] [Render thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-07-19_18.06.56.png
+[18:07:44] [Server thread/INFO]: Purpursarkans получил достижение «[Не отходя от кассы!]»
+[18:07:44] [Render thread/INFO]: [CHAT] Purpursarkans получил достижение «[Не отходя от кассы!]»
+[18:07:44] [Render thread/INFO]: Loaded 242 advancements
+[18:08:15] [Render thread/INFO]: Loaded 242 advancements
+[18:08:37] [Render thread/INFO]: Loaded 244 advancements
+[18:10:18] [Render thread/INFO]: [CHAT] Точка возрождения установлена
+[18:15:42] [Render thread/INFO]: Loaded 244 advancements
+[18:16:32] [Render thread/INFO]: Loaded 244 advancements
+[18:16:55] [Server thread/INFO]: Saving and pausing game...
+[18:16:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:overworld
+[18:16:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_nether
+[18:16:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_end
+[18:16:57] [Render thread/INFO]: Stopping worker threads
+[18:16:57] [Render thread/INFO]: Started 6 worker threads
+[18:16:57] [Render thread/INFO]: Flushed changes to Minecraft configuration
+[18:16:58] [Server thread/INFO]: Changing view distance to 32, from 24
+[18:16:58] [Render thread/INFO]: Stopping worker threads
+[18:16:58] [Render thread/INFO]: Started 6 worker threads
+[18:17:17] [Server thread/INFO]: Saving and pausing game...
+[18:17:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:overworld
+[18:17:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_nether
+[18:17:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_end
+[18:18:00] [Render thread/INFO]: Loaded 246 advancements
+[18:18:21] [Render thread/INFO]: Loaded 249 advancements
+[18:18:42] [Render thread/INFO]: Loaded 249 advancements
+[18:18:48] [Render thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-07-19_18.18.48.png
+[18:18:49] [Render thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-07-19_18.18.49.png
+[18:19:04] [Render thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-07-19_18.19.04.png
+[18:19:05] [Render thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-07-19_18.19.05.png
+[18:19:06] [Render thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-07-19_18.19.06.png
+[18:21:08] [Render thread/INFO]: [CHAT] Точка возрождения установлена
+[18:23:09] [Render thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-07-19_18.23.09.png
+[18:23:54] [Render thread/INFO]: Loaded 251 advancements
+[18:24:11] [Server thread/INFO]: Purpursarkans получил достижение «[Поле чудес]»
+[18:24:11] [Render thread/INFO]: [CHAT] Purpursarkans получил достижение «[Поле чудес]»
+[18:24:11] [Render thread/INFO]: Loaded 251 advancements
+[18:24:13] [Render thread/INFO]: Loaded 252 advancements
+[18:27:04] [Render thread/INFO]: Loaded 252 advancements
+[18:27:10] [Render thread/INFO]: Loaded 253 advancements
+[18:27:39] [Render thread/INFO]: Loaded 255 advancements
+[18:30:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1277, y=110, z=-1804} class_2338{x=-1277, y=109, z=-1803}
+[18:32:32] [Render thread/INFO]: [CHAT] Точка возрождения установлена
+[18:32:41] [Render thread/INFO]: Loaded 264 advancements
+[18:33:49] [Render thread/INFO]: [CHAT] Точка возрождения установлена
+[18:36:56] [Server thread/INFO]: Saving and pausing game...
+[18:36:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:overworld
+[18:36:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_nether
+[18:36:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_end
+[18:37:40] [Render thread/INFO]: Loaded 264 advancements
+[18:55:43] [Render thread/INFO]: Loaded 264 advancements
+[18:55:44] [Render thread/INFO]: Loaded 266 advancements
+[19:00:01] [Render thread/INFO]: [CHAT] Снимок экрана сохранён как 2023-07-19_19.00.01.png
+[19:09:44] [Render thread/INFO]: Loaded 268 advancements
+[19:12:39] [Server thread/INFO]: <Purpursarkans> 16
+[19:12:39] [Render thread/INFO]: [CHAT] <Purpursarkans> 16
+[19:24:08] [Render thread/INFO]: Loaded 268 advancements
+[19:24:16] [Render thread/INFO]: Loaded 286 advancements
+[19:24:26] [Server thread/INFO]: Saving and pausing game...
+[19:24:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:overworld
+[19:24:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_nether
+[19:24:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_end
+[19:24:26] [Render thread/WARN]: Warning! Mod error_notifier has a broken icon, loading default icon
+[19:25:15] [Server thread/INFO]: Saving and pausing game...
+[19:25:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:overworld
+[19:25:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_nether
+[19:25:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_end
+[19:29:53] [Render thread/INFO]: Loaded 286 advancements
+[19:30:23] [Render thread/INFO]: Loaded 288 advancements
+[19:30:26] [Render thread/INFO]: Loaded 290 advancements
+[19:30:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2230ms or 44 ticks behind
+[19:30:41] [Render thread/INFO]: Loaded 291 advancements
+[19:30:45] [Render thread/WARN]: Reclaimed 215920 bytes at address 2258512055616 that were leaked from an unknown location (logging is disabled)
+[19:30:45] [Render thread/WARN]: Reclaimed 1600 bytes at address 2258442653184 that were leaked from an unknown location (logging is disabled)
+[19:30:45] [Render thread/WARN]: Reclaimed 12000 bytes at address 2258440880128 that were leaked from an unknown location (logging is disabled)
+[19:30:45] [Render thread/WARN]: Reclaimed 3600 bytes at address 2258442125312 that were leaked from an unknown location (logging is disabled)
+[19:30:45] [Render thread/WARN]: Reclaimed 480 bytes at address 2258508645376 that were leaked from an unknown location (logging is disabled)
+[19:30:45] [Render thread/WARN]: Reclaimed 64776 bytes at address 2258502484544 that were leaked from an unknown location (logging is disabled)
+[19:30:47] [Render thread/INFO]: Loaded 293 advancements
+[19:30:49] [Render thread/INFO]: Loaded 294 advancements
+[19:31:34] [Render thread/INFO]: Loaded 296 advancements
+[19:34:22] [Render thread/INFO]: Loaded 298 advancements
+[19:36:07] [Render thread/INFO]: Loaded 299 advancements
+[19:47:22] [Render thread/INFO]: Loaded 302 advancements
+[19:56:14] [Render thread/INFO]: Loaded 303 advancements
+[20:06:07] [Render thread/INFO]: Loaded 304 advancements
+[20:12:01] [Render thread/INFO]: Loaded 307 advancements
+[20:12:45] [Render thread/INFO]: Loaded 308 advancements
+[20:17:52] [Render thread/INFO]: Loaded 308 advancements
+[20:22:15] [Render thread/INFO]: Loaded 309 advancements
+[20:25:14] [Server thread/INFO]: Saving and pausing game...
+[20:25:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:overworld
+[20:25:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_nether
+[20:25:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_end
+[20:25:22] [Server thread/INFO]: Saving and pausing game...
+[20:25:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:overworld
+[20:25:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_nether
+[20:25:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_end
+[20:25:22] [Server thread/INFO]: Purpursarkans lost connection: Отключение
+[20:25:22] [Server thread/INFO]: Purpursarkans покинул игру
+[20:25:22] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[20:25:22] [Server thread/INFO]: Stopping server
+[20:25:22] [Server thread/INFO]: Saving players
+[20:25:22] [Server thread/INFO]: Saving worlds
+[20:25:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:overworld
+[20:25:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_nether
+[20:25:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Стримчанский]'/minecraft:the_end
+[20:25:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (Стримчанский): All chunks are saved
+[20:25:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:25:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:25:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:25:30] [Render thread/INFO]: Stopping worker threads
+[20:25:32] [Render thread/INFO]: Stopping!
