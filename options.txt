@@ -1,4 +1,4 @@
-version:3463
+version:3700
 autoJump:false
 operatorItemsTab:false
 autoSuggestions:true
@@ -12,7 +12,7 @@ discrete_mouse_scroll:false
 invertYMouse:false
 realmsNotifications:true
 reducedDebugInfo:false
-showSubtitles:true
+showSubtitles:false
 directionalAudio:true
 touchscreen:false
 fullscreen:false
@@ -21,6 +21,7 @@ toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
+hideSplashTexts:false
 mouseSensitivity:0.40140846371650696
 fov:0.0
 screenEffectScale:1.0
@@ -30,6 +31,7 @@ glintSpeed:0.5
 glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
+narratorHotkey:true
 gamma:1.0
 renderDistance:32
 simulationDistance:16
@@ -42,8 +44,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:7
 renderClouds:"false"
-resourcePacks:["fabric"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","file/novogodnii-resurs-pak-MINEAVALON.zip"]
+incompatibleResourcePacks:["file/novogodnii-resurs-pak-MINEAVALON.zip"]
 lastServer:
 lang:ru_ru
 soundDevice:""
@@ -118,9 +120,8 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_key.modmenu.open_menu:key.keyboard.unknown
-soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_master:0.5
+soundCategory_music:0.5093896713615024
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

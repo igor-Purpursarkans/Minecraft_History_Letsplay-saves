@@ -1,0 +1,19 @@
+/gamerule doMobSpawning false
+/kill @e
+/gamerule doMobSpawning false
+/kill @e
+/give Purpursarkans minecraft:command_block
+/give Purpursarkans minecraft:chain_command_block
+/give Purpursarkans minecraft:repeating_command_block
+/give Purpursarkans minecraft:barrier
+/gamerule doDaylightCycle false
+/time set 6000
+/gamerule commandBlockOutput false
+/execute in minecraft:overworld run tp @s 3.21 9.00 -0.77 -915.44 12.23
+/execute in minecraft:overworld run tp @s 3.21 9.00 -2.77 -915.44 12.23
+/setblock 1 9 -2 minecraft:redstone_wire[east=none,north=none,power=0,south=side,west=side]
+/setblock 1 9 -1 minecraft:redstone_wire[east=none,north=none,power=0,south=side,west=side]
+/setblock 1 10 -3 minecraft:snow[layers=1]
+/setblock 1 10 -3 minecraft:snow
+/summon firework_rocket ~ ~1 ~ {LifeTime:40,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:2,Trail:1,Colors:[I;4312372,14602026],FadeColors:[I;8073150,12801229]}],Flight:2}}}}
+/give @s firework_rocket{Fireworks:{Explosions:[{Type:2,Trail:1,Colors:[I;4312372,14602026],FadeColors:[I;8073150,12801229]}],Flight:2}}
